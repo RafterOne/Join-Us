@@ -3,6 +3,31 @@
 
 ## Language Problems
 
+### Recursion
+
+Count the number of strings in the `data` array and all nested arrays in
+a recursive fashion.
+
+
+```javascript
+  var data = [
+    "test",
+    ["a", "b", "c"],
+    [["x", "y"], "z"],
+    "hello",
+    "world",
+    "something",
+    ["a", ["b", "c"], "d"]
+  ];
+
+  function countStrings(arr) {
+    // implement only this function body
+  }
+
+  console.log("Strings: ", countStrings(data));
+```
+
+
 ### Context Binding
 
 Make the following code work (ie. should output only "Hello world" to the

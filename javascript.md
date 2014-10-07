@@ -11,7 +11,6 @@ console) without writing any **new** functions or changing any code outside of t
 
 
 ```javascript
-
 function bind(func, context) {
   // TODO implement this function
 }
@@ -27,6 +26,27 @@ var Foo = function() {
 var foo = new Foo();
 bind(sayHello, foo)();
 ```
+
+## Instantiation Techniques
+
+Make the following code work by implementing only the first method. Explain why
+this method would be useful.
+
+```javascript
+function extend(obj) {
+  // implement this function
+}
+
+var Foo = function(args) {
+  extend(this, args);
+}
+
+var foo = new Foo({firstName: 'Hello', lastName: 'World'});
+
+// should print Hello World
+console.log(foo.firstName + ' ' + foo.lastName);
+```
+
 
 ## jQuery / DOM Problems
 ## Framework / Design Problems

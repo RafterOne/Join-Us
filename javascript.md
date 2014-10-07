@@ -27,7 +27,7 @@ var foo = new Foo();
 bind(sayHello, foo)();
 ```
 
-## Instantiation Techniques
+### Instantiation Techniques
 
 Make the following code work by implementing only the first method. Explain why
 this method would be useful.
@@ -49,5 +49,10 @@ console.log(foo.firstName + ' ' + foo.lastName);
 
 
 ## jQuery / DOM Problems
+
+### Selectors
+
+### Events
+
 ## Framework / Design Problems
 

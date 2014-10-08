@@ -164,9 +164,10 @@ javascript object (function, object, string, ...). `using` takes an array of
 strings and a function as it's arguments.
 
 Your goal is for your `using` function to provide it's function argument with
-all the items give in it's array argument previously registered via the
-`register` function by that name. `using` should provide it's function argument
-with these *dependencies* in the order specified as arguments.
+all the items given in it's array argument previously registered via the
+`register` function by that name. `using` should pass it's function arguments
+containing these *dependencies* in the order specified in the array. See the
+test code below for the intended usage.
 
 The `using` function should fail if an string is provided that was not
 previously registered.

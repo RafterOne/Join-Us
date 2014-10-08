@@ -35,7 +35,7 @@ a recursive fashion.
 ### Context Binding
 
 Make the following code work (ie. should output only "Hello world" to the
-console) without writing any **new** functions or changing any code outside of the
+console) by implementing the `bind` function or changing any code outside of the
 `bind` function. Explain what you did and why/when this would be useful.
 
 
